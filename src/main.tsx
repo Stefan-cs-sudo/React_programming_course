@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import MyApp from './Buton.tsx'
 import Profile from './Heidi.tsx'
+import  ShoppingList from './Products.tsx'
 let value;
 const isLoggedIn = false;
 
@@ -17,5 +18,8 @@ createRoot(document.getElementById('root')!).render(
 <div>
   {value}
 </div>
+<>
+  <ShoppingList />
+</>
   </StrictMode>,
 )
