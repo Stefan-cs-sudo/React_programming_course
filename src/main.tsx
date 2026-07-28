@@ -5,7 +5,7 @@ import MyApp from './Buton.tsx'
 import Profile from './Heidi.tsx'
 import  ShoppingList from './Products.tsx'
 let value;
-const isLoggedIn = false;
+const isLoggedIn = true;
 
 if (isLoggedIn) {
   value = <MyApp />;
